@@ -56,10 +56,10 @@ var ENGINE = {
   },
   readyCall: null,
   start: null,
-  SOURCE: "https://www.c00lsch00l.eu/Games/AA/",
-  WASM_SOURCE: "https://www.c00lsch00l.eu/WASM/",
-  AUDIO_SOURCE: "https://www.c00lsch00l.eu/Mp3/",
-  FONT_SOURCE: "https://www.c00lsch00l.eu/Fonts/",
+  SOURCE: "/Games/AA/",
+  WASM_SOURCE: "/WASM/",
+  AUDIO_SOURCE: "/Mp3/",
+  FONT_SOURCE: "/Fonts/",
   checkIntersection: false, //use linear intersection collision method after pixelperfect collision; set to false to exclude
   checkProximity: true, //check proximity before pixel perfect evaluation of collision to background
   pixelPerfectCollision: false, //false by default
